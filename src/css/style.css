@@ -44,6 +44,13 @@ img {
   }
 }
 
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+    width: 80%;
+  }
+}
+
 .button {
   border-radius: 10px;
   background-color: #ffd200;
@@ -163,6 +170,10 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 25px;
+}
+
+.hero-list__item:last-child {
+  margin-bottom: 0;
 }
 
 .hero-list__image {
