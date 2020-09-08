@@ -23,6 +23,7 @@ img
 	.container
 		width: 300px
 		width: 80%
+
 .button
 	border-radius: 10px
 	background-color: $main-color
@@ -31,6 +32,7 @@ img
 	&:hover
 		background-color: lighten($main-color, 10%)
 		cursor: pointer
+
 .section
 	padding: 90px 0px
 	&-title
@@ -39,8 +41,18 @@ img
 	&-subtitle
 		font-size: 16px
 		display: block
+
 .input
 	border: 1px solid $border-input
 	padding: 20px 26px
 	font-size: 15px
 	border-radius: 10px
+
+.text
+	line-height: 24px
+	font-size: 15px
+
+.phone
+	text-decoration: none
+	color: $text-color
+	+bold

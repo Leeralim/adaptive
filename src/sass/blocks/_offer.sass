@@ -30,6 +30,23 @@
     &__button
         width: 100%
         min-height: 70px
+    &-undertitle
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__text
+        padding-top: 26px
+        &:first-child
+            margin-right: 10px
+            max-width: 220px
+        &:last-child
+            max-width: 186px
+    &__info
+        padding-top: 26px
+    &__contact
+        max-width: 186px
+        padding-top: 5.2px
+        display: block
 
 @media ( max-width: 1200px )
     .offer
@@ -38,6 +55,8 @@
             width: 100%
             margin-bottom: 10px
         &__button
+            font-size: 13px
+        &__undertitle
             font-size: 13px
 
 @media ( max-width: 768px )

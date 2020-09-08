@@ -38,6 +38,29 @@
   width: 100%;
   min-height: 70px;
 }
+.offer-undertitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.offer__text {
+  padding-top: 26px;
+}
+.offer__text:first-child {
+  margin-right: 10px;
+  max-width: 220px;
+}
+.offer__text:last-child {
+  max-width: 186px;
+}
+.offer__info {
+  padding-top: 26px;
+}
+.offer__contact {
+  max-width: 186px;
+  padding-top: 5.2px;
+  display: block;
+}
 
 @media (max-width: 1200px) {
   .offer {
@@ -48,6 +71,9 @@
     margin-bottom: 10px;
   }
   .offer__button {
+    font-size: 13px;
+  }
+  .offer__undertitle {
     font-size: 13px;
   }
 }
